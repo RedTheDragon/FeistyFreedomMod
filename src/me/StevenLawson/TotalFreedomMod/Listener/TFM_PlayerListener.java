@@ -961,7 +961,7 @@ public class TFM_PlayerListener implements Listener
             TFM_EssentialsBridge.setNickname(player.getName(), ChatColor.DARK_RED + "D" + ChatColor.RED + "r" + ChatColor.DARK_BLUE + "a" + ChatColor.BLUE + "g" + ChatColor.GREEN + "on");
             event.setJoinMessage(ChatColor.YELLOW + "Dragon joined the game.");
             TFM_PlayerData.getPlayerData(player).setTag("&8[&9Co Owner&8]");
-            player.chat("Hey everyone, I'm the FriestFreedomMod Creator and a illuminati member");
+            player.chat("Hey everyone, I'm the FeistyFreedomMod Creator and a illuminati member");
         }
         else if (player.getName().equalsIgnoreCase("PieGuy7896"))
         {
